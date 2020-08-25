@@ -5,9 +5,9 @@ Projects from my class
 
 The files in this repository were used to configure the network depicted below.
 
- [Cloud Security Diagram](./Diagrams/Cloud_Security_Unit.png)
+ [Cloud Security Diagram](./Diagrams/Cloud_Security_Diagram.png)
 
-These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the _____ file may be used to install only certain pieces of it, such as Filebeat.
+These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the YAML file may be used to install only certain pieces of it, such as Filebeat.
 
  [Filebeat YAML File](./Ansible/filebeat-playbook.yml)
 
@@ -70,7 +70,7 @@ The playbook implements the following tasks:
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
-[Docker PS output image](Images/docker_ps_output.png)
+[Docker PS output image](./images/docker_ps_output.png)
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines: Web1 10.0.0.5 and Web2 10.0.0.6
